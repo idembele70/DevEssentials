@@ -2,12 +2,6 @@
 ```bash
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 ```
-**Change local commit signature**
-----
-```bash
-git config --local user.name <username>
-git config --local user.email <email>
-```
 
 **Remove a commit**
  ----
@@ -31,3 +25,10 @@ git lg
  ```bash
  git restore <filename>
  ```
+
+**Change local commit signature**
+----
+```bash
+git config --local user.name <username>
+git config --local user.email <email>
+```
