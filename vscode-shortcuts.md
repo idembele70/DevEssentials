@@ -49,3 +49,12 @@ Visual Studio Shortcuts
 | Go Back | alt + left |
 | Go Forward | alt + right |
 | Quick Fix... | ctrl + oem_period |
+
+## Github Copilot
+| description | keybinding      |
+|-------------|-----------------|
+|Open completions Panel | ctrl + NumPad1 |
+|Accept Panel suggestion | ctrl + NumPad2 |
+|Navigate to the next panel suggestion | ctrl + NumPad3 |
+|Navigate to the previous panel suggestion | ctrl + NumPad4 |
+|Trigger inline Suggestion | ctrl + NumPad_Decimal |
