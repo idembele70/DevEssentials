@@ -7,4 +7,5 @@ Upper case special character
 | À | alt + 0192 |
 | « | alt + 174 |
 | » | alt + 175 |
+| É | alt + 0201 |
 |  |  |
