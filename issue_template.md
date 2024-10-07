@@ -98,6 +98,27 @@ Additional Screenshots here
 - [ ] <Added to the documentation? ex.Documentation>
 ```
 
+4. ## Move test cases to a new scenario issue template
+<b>TITLE</b> : Move <E2E|unit> test cases for \<yourUseCaseNumber\> '\<yourUseCaseTitle\>' functionality into the new scenario.
+ 
+The label should be called: \<test\> with color: #<0201A7>
+```
+**User story**
+----
+As a developer, I want to migrate E2E test case for '<yourUseCaseTitle>' into the new scenario, ensuring that this functionality is properly tested according to best practices and remains free of regressions.
+
+**Quick description**
+----
+Move E2E test file related to the UC yourUseCaseNumber '<yourUseCaseTitle>' functionality into the new scenario.
+
+**Nominal process**
+----
+1. Your First process
+2. Your second process
+3. Third process
+4. process XYZ
+ ```
+
 **New list Item starter**
  -----
 <b>TITLE</b> : <feat|fix|...>: <brief_description>
