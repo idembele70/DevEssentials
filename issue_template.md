@@ -101,7 +101,7 @@ Additional Screenshots here
 4. ## Move test cases to a new scenario issue template
 <b>TITLE</b> : Move <E2E|unit> test cases for \<yourUseCaseNumber\> '\<yourUseCaseTitle\>' functionality into the new scenario.
  
-The label should be called: \<test\> with color: #<0201A7>
+The label should be called: \<test\> with color: #\<0201A7\>
 ```
 **User story**
 ----
