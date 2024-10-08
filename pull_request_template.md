@@ -1,8 +1,8 @@
 # Multiple Pull Request Templates Arranged by Type
 
 
-1. ### Test pull request template
-**The title**: WIP
+1. ### Test
+**TITLE**: WIP
 The label should be named: Test
 ```
 ### Pull request checklist :
@@ -16,7 +16,7 @@ The label should be named: Test
 * [ ] <branch_name ex. Local>
 * [ ] <branch_name ex. Dev>
 ```
-2. ### Move test cases to a new scenario request template
+2. ### Move test cases to a new scenario
 **TITLE**: Feature: #\<yourIssueNumber\> move UC \<yourOldUseCaseNumber\> to the new scenario as \<yourNewUseCaseNumber\>
 
 The label should be named: Test
@@ -32,3 +32,13 @@ The label should be named: Test
 * [ ] <branch_name ex. Local>
 * [ ] <branch_name ex. Dev>
 ```
+
+3. ## Writing documentation
+ -----
+**TITLE** : <docs|spec>: docs(\<yourUseCaseNumber\>): add specification
+
+The label should be called: documentation with color: #0075ca
+```
+Add <yourUseCaseNumber> "<YourUseCaseTitle>" feature specification to the <yourDocumentationNameIfExist> documentation.
+ ```
+ 
