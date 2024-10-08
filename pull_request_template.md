@@ -2,6 +2,23 @@
 
 
 1. ### Test pull request template
+**The title**: WIP
+The label should be named: Test
+```
+### Pull request checklist :
+* [X] My code is tied to an issue on **Github** 
+* [X] The feature is documented in the specifications
+* [ ] I have linted my code
+* [ ] My code is commented
+* [ ] My code has an automated test linked to its specifications
+
+### Definition of done :
+* [ ] <branch_name ex. Local>
+* [ ] <branch_name ex. Dev>
+```
+2. ### Move test cases to a new scenario request template
+**TITLE**: Feature: #\<yourIssueNumber\> move \<yourOldUseCaseNumber\> to the new scenario as \<yourNewUseCaseNumber\>
+
 The label should be named: Test
 ```
 ### Pull request checklist :
