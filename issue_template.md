@@ -105,7 +105,7 @@ The label should be called: \<test\> with color: #\<0201A7\>
 ```
 **User story**
 ----
-As a developer, I want to migrate E2E test case for '<yourOldUseCaseNumber>' into the new scenario, ensuring that this functionality is properly tested according to best practices and remains free of regressions.
+As a developer, I want to migrate E2E test case for '<yourOldUseCaseTitle>' into the new scenario, ensuring that this functionality is properly tested according to best practices and remains free of regressions.
 
 **Quick description**
 ----
