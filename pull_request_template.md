@@ -17,7 +17,7 @@ The label should be named: Test
 * [ ] <branch_name ex. Dev>
 ```
 2. ### Move test cases to a new scenario request template
-**TITLE**: Feature: #\<yourIssueNumber\> move \<yourOldUseCaseNumber\> to the new scenario as \<yourNewUseCaseNumber\>
+**TITLE**: Feature: #\<yourIssueNumber\> move UC \<yourOldUseCaseNumber\> to the new scenario as \<yourNewUseCaseNumber\>
 
 The label should be named: Test
 ```
