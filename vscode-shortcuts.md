@@ -59,5 +59,5 @@ Visual Studio Shortcuts
 | Navigate to the previous panel suggestion | ctrl + NumPad4 |
 | Trigger inline Suggestion | ctrl + NumPad_Decimal |
 | Editor inline Chat | ctrl + i |
-| Open copilots Edits | ctrl + + shift + i |
+| Open Copilot Edits | ctrl + shift + i |
 
