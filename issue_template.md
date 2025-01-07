@@ -119,9 +119,15 @@ Move E2E test file related to the UC <yourOldUseCaseNumber> '<yourUseCaseTitle>'
 4. process XYZ
  ```
 
-## Fix CI/CD Broken tests
-<b>TITLE</b> : feature: fix <e2e|unit> test cases from CI-CD run #'\<yourCiCdNumber\>'
- 
+## Fix CI/CD Broken e2e tests
+#### TITLE: 
+```
+Feature: fix e2e test cases from CI-CD run #<yourCiCdNumber>
+```
+#### Branch name: 
+```
+feature/fix-e2e-broken-test-cases-from-ci-cd-run-<yourCiCdNumber>-#<yourIssueNumber>
+ ```
 The label should be called: Support with color: #4F047E, Test with color: #0201A7
 
 If there's a issue type: Bug with color: #fff0ee
