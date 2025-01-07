@@ -119,7 +119,7 @@ Move E2E test file related to the UC <yourOldUseCaseNumber> '<yourUseCaseTitle>'
 4. process XYZ
  ```
 
-5. ## Fix CI/CD Broken tests
+## Fix CI/CD Broken tests
 <b>TITLE</b> : feature: fix <e2e|unit> test cases from CI-CD run #'\<yourCiCdNumber\>'
  
 The label should be called: Support with color: #4F047E, Test with color: #0201A7
