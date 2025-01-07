@@ -1,14 +1,14 @@
 # Multiple Issue Templates Arranged by Type
 
 
-1. ### Test issue template
+## Test issue template
 <b>TITLE</b> : feat: create test for "<use_case_title>" use case <user_case_number>
 
-The label should be named: Test with color: #
+The label should be named: Test with color: #0201A7
 ```
 **User Story**
 ----
-As a developer, I want to make sure that when I push code to <branche_name>, users can still <explain_your_action>.
+As a developer, I want to make sure that when I push code to <branch_name>, users can still <explain_your_action>.
 
 **Quick description**
 ----
@@ -22,9 +22,9 @@ As a developer, I want to make sure that when I push code to <branche_name>, use
 3. Third process
 4. process XYZ
 ```
-2. ### Bug issue template
+## Bug issue template
 <b>TITLE</b> : fix: <brief_description>
-The label should be named: Bug with color: #<hexadecimal>
+The label should be named: Bug with color: #d73a4a
 ```
 **Describe the bug**
 ------
@@ -59,7 +59,7 @@ If applicable, add screenshots to help explain your problem.
 Add any other context about the problem here.
 ```
 
-3. ## Feature issue template
+## Feature issue template
 <b>TITLE</b> : feat: <brief_description>
 The label should be called: <enchancement|feature|feat> with color: #a2eeef
 ```
@@ -98,7 +98,7 @@ Additional Screenshots here
 - [ ] <Added to the documentation? ex.Documentation>
 ```
 
-4. ## Move test cases to a new scenario issue template
+## Move test cases to a new scenario issue template
 <b>TITLE</b> : Move <E2E|unit> test cases for \<yourOldUseCaseNumber\> '\<yourUseCaseTitle\>' functionality into the new scenario as \<yourNewUseCaseNumber\>.
  
 The label should be called: \<test\> with color: #\<0201A7\>
@@ -119,10 +119,33 @@ Move E2E test file related to the UC <yourOldUseCaseNumber> '<yourUseCaseTitle>'
 4. process XYZ
  ```
 
+5. ## Fix CI/CD Broken tests
+<b>TITLE</b> : feature: fix <e2e|unit> test cases from CI-CD run #'\<yourCiCdNumber\>'
+ 
+The label should be called: Support with color: #4F047E, Test with color: #0201A7
+
+If there's a issue type: Bug with color: #fff0ee
+```
+**User Story**
+----
+As a developer, I want to make sure that when I push code to <branch_name>, broken test from this [CI-CD pipeline](https://github.com/org/repo/actions/runs/<yourCiCdNumber>) don't fail due to broken test cases.
+
+**Quick description**
+----
+- Fix the broken test cases identified in the [Github Actions pipeline](https://github.com/org/repo/actions/runs/\<yourCiCdNumber\>)
+
+**Nominal Process:**
+----
+Fix those broken test files: 
+- [ ] Test_A
+- [ ] Test_B
+- [ ] Test_C
+ ```
+
 **New list Item starter**
  -----
+## <template_type> issue template
 <b>TITLE</b> : <feat|fix|...>: <brief_description>
-<your_list_number>. ### <template_type> issue template
  
 The label should be called: <template_type> with color: #<hexadecimal>
 ```
