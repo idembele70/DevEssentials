@@ -2,9 +2,16 @@
 
 
 ## Test issue template
-<b>TITLE</b> : feat: create test for "<use_case_title>" use case <user_case_number>
+#### Title: 
+```
+feat: create test for <use_case_title> use case <user_case_number>
+```
 
-The label should be named: Test with color: #0201A7
+#### Labels: 
+| Name          | color         |
+| ------------- | ------------- |
+| Test          | #0201A7       |
+
 ```
 **User Story**
 ----
@@ -23,8 +30,15 @@ As a developer, I want to make sure that when I push code to <branch_name>, user
 4. process XYZ
 ```
 ## Bug issue template
-<b>TITLE</b> : fix: <brief_description>
-The label should be named: Bug with color: #d73a4a
+#### Title:
+```
+fix: <brief_description>
+```
+#### Labels:
+| Name          | color         |
+| ------------- | ------------- |
+| Bug          | #d73a4a        |
+
 ```
 **Describe the bug**
 ------
@@ -60,8 +74,16 @@ Add any other context about the problem here.
 ```
 
 ## Feature issue template
-<b>TITLE</b> : feat: <brief_description>
-The label should be called: <enchancement|feature|feat> with color: #a2eeef
+#### Title: 
+```
+feat: <brief_description>
+```
+
+#### Labels: 
+| Name                                 | color         |
+| ------------------------------------ | ------------- |
+| <enchancement\|feature\|feat>        | #a2eeef       |
+
 ```
 **User story**
 ------
@@ -99,9 +121,16 @@ Additional Screenshots here
 ```
 
 ## Move test cases to a new scenario issue template
-<b>TITLE</b> : Move <E2E|unit> test cases for \<yourOldUseCaseNumber\> '\<yourUseCaseTitle\>' functionality into the new scenario as \<yourNewUseCaseNumber\>.
- 
-The label should be called: \<test\> with color: #\<0201A7\>
+#### Title: 
+```
+Move <E2E|unit> test cases for <yourOldUseCaseNumber> '<yourUseCaseTitle>' functionality into the new scenario as <yourNewUseCaseNumber>.
+```
+
+#### Labels:
+| Name          | color         |
+| ------------- | ------------- |
+| Test          | #0201A7       |
+
 ```
 **User story**
 ----
@@ -120,7 +149,7 @@ Move E2E test file related to the UC <yourOldUseCaseNumber> '<yourUseCaseTitle>'
  ```
 
 ## Fix CI/CD Broken e2e tests
-#### TITLE: 
+#### Title: 
 ```
 Feature: fix e2e test cases from CI-CD run #<yourCiCdNumber>
 ```
@@ -151,9 +180,13 @@ Fix those broken test files:
 **New list Item starter**
  -----
 ## <template_type> issue template
-<b>TITLE</b> : <feat|fix|...>: <brief_description>
+#### TITLE: <feat|fix|...>: <brief_description>
  
-The label should be called: <template_type> with color: #<hexadecimal>
+#### Label:
+| Name          | color              |
+| ------------- | ------------------ |
+| Name          | #hexadecimal       |
+
 ```
 <paste_your_template>
  ```
