@@ -163,7 +163,7 @@ If there's a issue type: Bug with color: #fff0ee
 ```
 **User Story**
 ----
-As a developer, I want to make sure that when I push code to <branch_name>, broken test from this [CI-CD pipeline](https://github.com/org/repo/actions/runs/<yourCiCdNumber>) don't fail due to broken test cases.
+As a developer, I want to make sure that when I push code to <branch_name>,test from this [CI-CD pipeline](https://github.com/org/repo/actions/runs/<yourCiCdNumber>) don't fail due to broken test cases.
 
 **Quick description**
 ----
